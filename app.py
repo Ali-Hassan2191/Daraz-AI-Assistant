@@ -355,7 +355,7 @@ if not st.session_state.messages:
             pending = q
 
 for msg in st.session_state.messages:
-    with st.chat_message(msg["role"], avatar="🧑‍💼" if msg["role"] == "user" else "🛍️"):
+    with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
         if msg["role"] == "assistant":
             render_sources(msg.get("sources", []))
@@ -366,7 +366,7 @@ question = pending or typed
 if question:
     history = list(st.session_state.messages)
     st.session_state.messages.append({"role": "user", "content": question})
-    with st.chat_message("user", avatar="🧑‍💼"):
+    with st.chat_message("user"):
         st.markdown(question)
 
     # Short follow-ups ("and for sellers?") borrow the previous question for retrieval.
@@ -375,7 +375,7 @@ if question:
         f"{prev_users[-1]} {question}" if prev_users and len(question.split()) <= 5 else question
     )
 
-    with st.chat_message("assistant", avatar="🛍️"):
+    with st.chat_message("assistant"):
         try:
             with st.spinner("Searching policies…"):
                 hits = retrieve(search_query, selected_dept, top_k)
