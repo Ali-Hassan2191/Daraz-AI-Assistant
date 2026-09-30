@@ -77,32 +77,56 @@ html, body, [class*="css"], .stMarkdown, .stChatInput textarea {{
     font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
 }}
 #MainMenu, footer {{ visibility: hidden; }}
-.block-container {{ padding-top: 1.2rem; max-width: 820px; }}
+.block-container {{ padding-top: 4.5rem; max-width: 820px; }}
+[data-testid="stHeader"] {{ background: transparent; }}
 
 /* Header */
 .brand-bar {{
-    display: flex; align-items: center; gap: 14px;
-    padding: 14px 18px; margin-bottom: 18px;
-    background: {BRAND_ORANGE}; border-radius: 14px; color: #fff;
+    padding: 34px 32px 26px 32px; margin-bottom: 20px;
+    background: linear-gradient(100deg, #FF6A00 0%, #FF8A35 100%);
+    border-radius: 18px; color: #fff;
 }}
-.brand-word {{
-    font-size: 30px; font-weight: 800; letter-spacing: -0.04em; line-height: 1;
+.brand-title {{
+    font-size: 30px; font-weight: 800; line-height: 1.15; margin: 0 0 22px 0;
+    color: #fff;
 }}
-.brand-divider {{ width: 1px; height: 28px; background: rgba(255,255,255,.45); }}
-.brand-title {{ font-size: 15px; font-weight: 700; line-height: 1.2; }}
-.brand-sub {{ font-size: 12px; font-weight: 500; opacity: .9; }}
+.brand-sub {{ font-size: 15px; font-weight: 500; color: #fff; opacity: .95; }}
 
 /* Sidebar */
-[data-testid="stSidebar"] {{
-    background: #FFF5EF; border-right: 1px solid #FFE0CF;
+[data-testid="stSidebar"] {{ background: #1A1A1C; border-right: none; }}
+[data-testid="stSidebar"] * {{ color: #F2F2F2; }}
+[data-testid="stSidebar"] .side-title {{
+    font-size: 20px; font-weight: 700; color: #fff; margin: 18px 0 8px 0;
 }}
-[data-testid="stSidebar"] h3 {{
-    font-size: 14px; font-weight: 700; color: #3A2A22; margin-bottom: 4px;
+[data-testid="stSidebar"] .side-sub {{
+    font-size: 15px; line-height: 1.6; color: #9C9CA3; margin-bottom: 18px;
 }}
+[data-testid="stSidebar"] [role="radiogroup"] {{ gap: 6px; }}
 [data-testid="stSidebar"] [role="radiogroup"] label {{
-    padding: 6px 8px; border-radius: 8px;
+    padding: 6px 6px; border-radius: 8px;
 }}
-[data-testid="stSidebar"] [role="radiogroup"] label:hover {{ background: #FFE8DB; }}
+[data-testid="stSidebar"] [role="radiogroup"] label:hover {{ background: #262629; }}
+[data-testid="stSidebar"] [role="radiogroup"] label p {{
+    font-size: 16px; font-weight: 600; color: #fff;
+}}
+/* radio dots: white when idle, orange when selected */
+[data-testid="stSidebar"] [role="radiogroup"] label > div:first-child {{
+    background-color: #fff !important; border-color: #fff !important;
+}}
+[data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked) > div:first-child {{
+    background-color: {BRAND_ORANGE} !important; border-color: {BRAND_ORANGE} !important;
+}}
+[data-testid="stSidebar"] hr {{ border-color: #333338; }}
+/* slider: shift Streamlit's default red to Daraz orange (no config.toml needed) */
+[data-testid="stSidebar"] [data-testid="stSlider"] {{ filter: hue-rotate(20deg) saturate(1.15); }}
+[data-testid="stSidebar"] .stButton > button {{
+    background: #26262A; border: 1px solid #3A3A40; color: #fff; justify-content: center;
+}}
+[data-testid="stSidebar"] .stButton > button:hover {{
+    background: {BRAND_ORANGE}; border-color: {BRAND_ORANGE}; color: #fff;
+}}
+[data-testid="stSidebarCollapseButton"] button,
+[data-testid="stSidebarCollapseButton"] svg {{ color: #fff; fill: #fff; }}
 
 /* Scope pill above chat */
 .scope-pill {{
@@ -126,6 +150,17 @@ html, body, [class*="css"], .stMarkdown, .stChatInput textarea {{
 [data-testid="stChatInput"] textarea:focus {{
     box-shadow: 0 0 0 2px {BRAND_ORANGE}55 !important;
 }}
+[data-testid="stChatInputSubmitButton"],
+[data-testid="stChatInput"] button {{
+    background-color: {BRAND_ORANGE} !important; color: #fff !important;
+    border-radius: 10px !important; opacity: 1 !important;
+}}
+[data-testid="stChatInputSubmitButton"]:hover,
+[data-testid="stChatInput"] button:hover {{ background-color: #D94800 !important; }}
+[data-testid="stChatInputSubmitButton"]:disabled,
+[data-testid="stChatInput"] button:disabled {{ opacity: .6 !important; }}
+[data-testid="stChatInputSubmitButton"] svg,
+[data-testid="stChatInput"] button svg {{ color: #fff !important; fill: #fff !important; }}
 [data-testid="stExpander"] {{ border-radius: 10px; border-color: #FFE0CF; }}
 .src-meta {{ font-size: 12px; color: #8a6f60; margin-bottom: 2px; }}
 </style>
@@ -136,12 +171,8 @@ html, body, [class*="css"], .stMarkdown, .stChatInput textarea {{
 st.markdown(
     """
 <div class="brand-bar">
-  <div class="brand-word">daraz</div>
-  <div class="brand-divider"></div>
-  <div>
-    <div class="brand-title">Support Operations Assistant</div>
-    <div class="brand-sub">Answers from Daraz policy documents</div>
-  </div>
+  <div class="brand-title">🛍️ Daraz Support Assistant</div>
+  <div class="brand-sub">Ask about returns, delivery, refunds, seller policies, payments &amp; customer support</div>
 </div>
 """,
     unsafe_allow_html=True,
@@ -279,10 +310,14 @@ def render_sources(sources: list):
 # Sidebar
 # ----------------------------------------------------------------------------
 with st.sidebar:
-    st.markdown("### Knowledge base section")
+    st.markdown(
+        "<div class='side-title'>📚 Knowledge Base Section</div>"
+        "<div class='side-sub'>Restrict search to one section, or search everything.</div>",
+        unsafe_allow_html=True,
+    )
     options = [ALL] + [key for key, _ in SECTIONS]
-    labels = {ALL: f"All sections ({sum(dept_counts.values())})"}
-    labels.update({k: f"{lbl} ({dept_counts.get(k, 0)})" for k, lbl in SECTIONS})
+    labels = {ALL: "All Sections"}
+    labels.update({k: lbl for k, lbl in SECTIONS})
 
     selected = st.radio(
         "Search in",
@@ -291,7 +326,6 @@ with st.sidebar:
         label_visibility="collapsed",
         key="section",
     )
-    st.caption("Counts show indexed passages per section.")
 
     st.divider()
     top_k = st.slider("Passages to retrieve", 3, 8, 5)
