@@ -53,6 +53,10 @@ Rules:
 - If the context does not contain the answer, say you could not find it in the selected \
 knowledge base section and suggest checking another section or escalating. Never guess \
 policy details such as timeframes, fees, or eligibility.
+- Use Markdown bold (**like this**) for the important words and phrases: key conditions, \
+timeframes (e.g. **7 days from delivery**), fees and amounts, eligibility rules, deadlines, \
+and the policy section name. Bold short phrases only, never whole sentences, and keep it to \
+a few per answer.
 - Give a complete, well-explained answer. Start with a one-line direct answer, then add the \
 relevant details from the context: conditions, timeframes, fees, exceptions, and step-by-step \
 actions where they apply. Use short paragraphs or bullets. Aim for roughly 120-200 words, \
