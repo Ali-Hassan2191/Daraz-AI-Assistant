@@ -1,0 +1,518 @@
+{
+  "0": {
+    "id": 0,
+    "department": "customer_support",
+    "source_file": "customer_support/complaint_escalation_policy.pdf",
+    "text": "Daraz Knowledge Base | CS-002 | Sample data for RAG testing\nPage 1\n Complaint Escalation Policy\n Document ID: CS-002  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Customer Support\n1. Overview\nIf a customer is not satisfied with the first response, the complaint can be escalated through three levels.\nCustomers do not have to wait for a level to fail before asking for escalation once the target time has\npassed.\n2. Escalation Levels\nLevel\nHandled By\nResponse Target\nAuthority\nLevel 1\nSupport Agent\nWithin 24 hours\nStandard resolutions,\nreturns approval up to Rs.\n10,000\nLevel 2\nSenior Agent / Team Lead\nWithin 48 hours\nExceptions, refunds up to\nRs. 50,000, seller warnings\nLevel 3\nCustomer Experience\nManager\nWithin 5 working days\nPolicy exceptions, refunds\nabove Rs. 50,000, seller"
+  },
+  "1": {
+    "id": 1,
+    "department": "customer_support",
+    "source_file": "customer_support/complaint_escalation_policy.pdf",
+    "text": "Rs. 50,000, seller warnings\nLevel 3\nCustomer Experience\nManager\nWithin 5 working days\nPolicy exceptions, refunds\nabove Rs. 50,000, seller\nsuspension\n3. When to Escalate\n\nThe Level 1 target time has passed with no response\n\nThe issue was closed but not actually resolved\n\nThe customer reports rude or unprofessional behaviour by an agent or rider\n\nThe case involves suspected fraud or a counterfeit product\n\nThe claim value is above Rs. 10,000\n4. How to Escalate\n\nReply to the original case email with the word ESCALATE in the subject line\n\nOr tell the live chat agent: 'Please escalate case CS-YYYYMMDD-XXXXX'\n\nOr email escalations@daraz-demo.pk with the case number and a short description\n5. Final Recourse"
+  },
+  "2": {
+    "id": 2,
+    "department": "customer_support",
+    "source_file": "customer_support/complaint_escalation_policy.pdf",
+    "text": "\nOr email escalations@daraz-demo.pk with the case number and a short description\n5. Final Recourse\nIf the complaint is still unresolved after Level 3, the customer may approach the Consumer Protection\nCouncil of their province or file a complaint on the Pakistan Citizen Portal. Daraz will cooperate with any\nofficial inquiry and share the case history.\n6. Seller-Related Complaints\nWhen the complaint is about a Marketplace seller, Daraz contacts the seller and gives them 48 hours to\nrespond. If the seller does not respond, Daraz resolves the case in the customer's favour under the Buyer\nProtection Program and recovers the amount from the seller.\n7. Non-Retaliation"
+  },
+  "3": {
+    "id": 3,
+    "department": "customer_support",
+    "source_file": "customer_support/complaint_escalation_policy.pdf",
+    "text": "Daraz Knowledge Base | CS-002 | Sample data for RAG testing\nPage 2\nA customer who files a complaint will never be penalised, blocked or have their account restricted because\nof it."
+  },
+  "4": {
+    "id": 4,
+    "department": "customer_support",
+    "source_file": "customer_support/customer_support_faq.pdf",
+    "text": "Daraz Knowledge Base | CS-004 | Sample data for RAG testing\nPage 1\n Customer Support FAQ\n Document ID: CS-004  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Customer Support\nGeneral Questions\nQ1. How do I track my order?\nOpen My Orders in the app, select the order and tap Track. You will see the current status: Placed,\nPacked, Shipped, Out for Delivery or Delivered. You also receive an SMS at each major stage.\nQ2. Can I change my delivery address after placing an order?\nYes, but only if the order status is still Placed or Packed. Contact live chat and request an address change.\nOnce the order is Shipped, the address cannot be changed and you should contact the rider when they\ncall.\nQ3. What if the rider does not call me?"
+  },
+  "5": {
+    "id": 5,
+    "department": "customer_support",
+    "source_file": "customer_support/customer_support_faq.pdf",
+    "text": "Once the order is Shipped, the address cannot be changed and you should contact the rider when they\ncall.\nQ3. What if the rider does not call me?\nRiders attempt delivery up to 3 times. If you missed the calls, contact support with your order number and\nask for a re-attempt. After 3 failed attempts the order returns to the warehouse and is cancelled.\nQ4. I received a different product from what I ordered. What should I do?\nDo not use the product. Raise a Wrong Item request within 7 days of delivery with clear photos of the\nproduct, label and packaging. A free pickup will be arranged and a replacement or refund will be issued.\nQ5. Is Cash on Delivery available everywhere?\nCOD is available in most cities for orders up to Rs. 50,000. Some remote areas may be online-payment"
+  },
+  "6": {
+    "id": 6,
+    "department": "customer_support",
+    "source_file": "customer_support/customer_support_faq.pdf",
+    "text": "Q5. Is Cash on Delivery available everywhere?\nCOD is available in most cities for orders up to Rs. 50,000. Some remote areas may be online-payment\nonly. The checkout page shows the available payment options for your address.\nQ6. Are my card details stored?\nCard details are processed by PCI-DSS compliant payment partners. Daraz only stores the last 4 digits\nand card brand for display.\nQ7. I was charged twice. What now?\nShare the order number and the transaction screenshot with support. Duplicate charges are reviewed\nwithin 5 working days, and the extra amount is refunded to the original payment method.\nQ8. How do I report a fake product?\nUse Report Seller on the product page or contact support. Suspected counterfeit items are removed within"
+  },
+  "7": {
+    "id": 7,
+    "department": "customer_support",
+    "source_file": "customer_support/customer_support_faq.pdf",
+    "text": "Q8. How do I report a fake product?\nUse Report Seller on the product page or contact support. Suspected counterfeit items are removed within\n24 hours of a verified report, and buyers are refunded in full.\nQ9. Can I speak to someone in Urdu?\nYes. All support channels offer Urdu, English and Roman Urdu."
+  },
+  "8": {
+    "id": 8,
+    "department": "customer_support",
+    "source_file": "customer_support/customer_support_guide.pdf",
+    "text": "Daraz Knowledge Base | CS-001 | Sample data for RAG testing\nPage 1\n Customer Support Guide\n Document ID: CS-001  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Customer Support\n1. Purpose\nThis guide explains how customers can reach Daraz Customer Support, what help is available, and what\nto expect at each step. It applies to all buyers in Pakistan, whether they ordered from a Daraz Mall store or\na Marketplace seller.\n2. Support Channels\nChannel\nAvailability\nTypical First Response\nLive Chat (app and website)\n9:00 AM - 9:00 PM, every day\nUnder 2 minutes\nHelpline 042-111-000-000\n9:00 AM - 9:00 PM, Mon-Sat\nAverage wait 4 minutes\nEmail help@daraz-demo.pk\n24/7 intake\nWithin 24 hours\nWhatsApp +92 300 0000000\n10:00 AM - 8:00 PM, Mon-Sat\nWithin 30 minutes"
+  },
+  "9": {
+    "id": 9,
+    "department": "customer_support",
+    "source_file": "customer_support/customer_support_guide.pdf",
+    "text": "Average wait 4 minutes\nEmail help@daraz-demo.pk\n24/7 intake\nWithin 24 hours\nWhatsApp +92 300 0000000\n10:00 AM - 8:00 PM, Mon-Sat\nWithin 30 minutes\nLive chat is the fastest channel for order tracking, cancellations and return requests. Phone support is\nrecommended for urgent delivery problems or when a rider is unreachable.\n3. What Support Can Help With\n\nOrder tracking and delivery delays\n\nCancelling an order before it is shipped\n\nStarting a return or refund request\n\nWrong, damaged or missing items\n\nPayment failures and double charges\n\nAccount login, password reset and address changes\n\nReporting a seller for misconduct or suspected counterfeit goods\n4. Information to Keep Ready\nHaving the following ready shortens resolution time:\n"
+  },
+  "10": {
+    "id": 10,
+    "department": "customer_support",
+    "source_file": "customer_support/customer_support_guide.pdf",
+    "text": "Reporting a seller for misconduct or suspected counterfeit goods\n4. Information to Keep Ready\nHaving the following ready shortens resolution time:\n\nOrder number (format: 10-digit number, for example 1234567890)\n\nRegistered phone number or email\n\nPhotos or a short video of the product and packaging for damage or wrong-item claims\n\nTracking number, if available\n5. Identity Verification\nFor security, agents verify identity before discussing account details. The agent will ask for the registered\nphone number and the last 4 digits of the order number. Agents never ask for your password, full card\nnumber, CVV, or OTP. If anyone asks for these, end the conversation and report it to\nhelp@daraz-demo.pk.\n6. Service Level Targets"
+  },
+  "11": {
+    "id": 11,
+    "department": "customer_support",
+    "source_file": "customer_support/customer_support_guide.pdf",
+    "text": "Daraz Knowledge Base | CS-001 | Sample data for RAG testing\nPage 2\nRequest Type\nResolution Target\nOrder status query\nImmediate\nAddress change (before dispatch)\nWithin 2 hours\nReturn request approval\nWithin 24 hours\nMissing item investigation\nWithin 3 working days\nPayment double-charge review\nWithin 5 working days\n7. Case Numbers\nEvery conversation that needs follow-up receives a case number in the format CS-YYYYMMDD-XXXXX.\nCustomers should quote this number in all further contact so they do not have to repeat the issue.\n8. Feedback\nAfter each interaction customers can rate the agent from 1 to 5 stars. Ratings of 2 stars or below\nautomatically trigger a supervisor review within 48 hours."
+  },
+  "12": {
+    "id": 12,
+    "department": "customer_support",
+    "source_file": "customer_support/support_channels_and_hours.pdf",
+    "text": "Daraz Knowledge Base | CS-003 | Sample data for RAG testing\nPage 1\n Support Hours and Holiday Schedule\n Document ID: CS-003  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Customer Support\n1. Regular Hours\nCustomer Support operates from 9:00 AM to 9:00 PM Pakistan Standard Time (PKT). Live chat is\navailable seven days a week. The phone helpline is available Monday to Saturday only and is closed on\nSundays.\n2. Public Holiday Schedule\nOccasion\nPhone\nLive Chat\nEid-ul-Fitr (3 days)\nClosed\n10:00 AM - 6:00 PM\nEid-ul-Adha (3 days)\nClosed\n10:00 AM - 6:00 PM\nIndependence Day (14 August)\nClosed\nNormal hours\nAshura (9th and 10th Muharram)\nClosed\n10:00 AM - 6:00 PM\nPakistan Day (23 March)\nNormal hours\nNormal hours\n3. Sale Event Extended Hours"
+  },
+  "13": {
+    "id": 13,
+    "department": "customer_support",
+    "source_file": "customer_support/support_channels_and_hours.pdf",
+    "text": "Normal hours\nAshura (9th and 10th Muharram)\nClosed\n10:00 AM - 6:00 PM\nPakistan Day (23 March)\nNormal hours\nNormal hours\n3. Sale Event Extended Hours\nDuring major sale events such as 11.11 and Black Friday, live chat and phone are extended to 8:00 AM -\n11:00 PM. Response times may be longer due to high volume, and customers are encouraged to use the\napp's self-service options first.\n4. Self-Service Options\n\nTrack order: My Orders > Select Order > Track\n\nCancel order: My Orders > Select Order > Cancel (available until the status changes to Shipped)\n\nStart a return: My Orders > Select Order > Return/Refund (within the return window)\n\nUpdate address: Account > Address Book (applies to future orders only)\n5. Language Support"
+  },
+  "14": {
+    "id": 14,
+    "department": "customer_support",
+    "source_file": "customer_support/support_channels_and_hours.pdf",
+    "text": "\nUpdate address: Account > Address Book (applies to future orders only)\n5. Language Support\nSupport is offered in Urdu, English, and Roman Urdu. Regional language support in Punjabi, Sindhi and\nPashto is available on the phone helpline on request, subject to agent availability."
+  },
+  "15": {
+    "id": 15,
+    "department": "delivery",
+    "source_file": "delivery/delivery_charges_and_free_shipping.pdf",
+    "text": "Daraz Knowledge Base | DL-003 | Sample data for RAG testing\nPage 1\n Delivery Charges and Free Shipping Policy\n Document ID: DL-003  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Delivery\n1. Standard Delivery Fees\nZone\nUp to 1 kg\n1-5 kg\nEach additional kg\nZone A\nRs. 99\nRs. 149\nRs. 30\nZone B\nRs. 129\nRs. 179\nRs. 35\nZone C\nRs. 169\nRs. 219\nRs. 40\nZone D\nRs. 249\nRs. 299\nRs. 50\n2. Free Shipping\nOrders with a subtotal of Rs. 2,500 or more qualify for free standard delivery in Zones A and B. In Zones C\nand D the free shipping threshold is Rs. 4,000. Daraz Mall items marked Free Delivery qualify regardless\nof order value. Free shipping does not apply to express delivery.\n3. Multi-Seller Orders"
+  },
+  "16": {
+    "id": 16,
+    "department": "delivery",
+    "source_file": "delivery/delivery_charges_and_free_shipping.pdf",
+    "text": "of order value. Free shipping does not apply to express delivery.\n3. Multi-Seller Orders\nIf an order contains items from multiple sellers, each seller's parcel is charged delivery separately, but free\nshipping thresholds are checked per parcel, not per cart. The checkout page shows the delivery fee for\neach parcel.\n4. Bulky Item Surcharge\nFurniture, large appliances and items over 20 kg carry a bulky surcharge of Rs. 500 to Rs. 1,500\ndepending on size and destination. The exact amount is shown at checkout before payment.\n5. Delivery Fee Refunds\n\nRefunded in full when an order is cancelled before shipment\n\nRefunded in full for wrong, damaged or missing items\n\nNot refunded for change-of-mind returns\n\nRefunded if the order is undelivered or lost\n6. Delivery Fee Promotions"
+  },
+  "17": {
+    "id": 17,
+    "department": "delivery",
+    "source_file": "delivery/delivery_charges_and_free_shipping.pdf",
+    "text": "\nNot refunded for change-of-mind returns\n\nRefunded if the order is undelivered or lost\n6. Delivery Fee Promotions\nDaraz may offer free delivery promotions during campaigns. Promotional free delivery vouchers are valid\nfor 7 days, cannot be combined with another delivery voucher, and are not refunded as cash if unused."
+  },
+  "18": {
+    "id": 18,
+    "department": "delivery",
+    "source_file": "delivery/delivery_guidelines.pdf",
+    "text": "Daraz Knowledge Base | DL-001 | Sample data for RAG testing\nPage 1\n Delivery Guidelines\n Document ID: DL-001  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Delivery\n1. Purpose\nThese guidelines explain how orders are packed, shipped and delivered, and what customers should do\nwhen the rider arrives. They apply to all Daraz Mall and Marketplace orders within Pakistan.\n2. Order Journey\nStage\nMeaning\nCustomer Notification\nPlaced\nOrder confirmed, waiting for seller\nSMS and email\nPacked\nSeller has packed the item\nApp notification\nShipped\nParcel handed to logistics partner\nSMS with tracking number\nOut for Delivery\nRider has the parcel for today\nSMS with rider name and phone\nDelivered\nParcel handed over and confirmed\nSMS and email\n3. Seller Dispatch Deadline"
+  },
+  "19": {
+    "id": 19,
+    "department": "delivery",
+    "source_file": "delivery/delivery_guidelines.pdf",
+    "text": "Rider has the parcel for today\nSMS with rider name and phone\nDelivered\nParcel handed over and confirmed\nSMS and email\n3. Seller Dispatch Deadline\nMarketplace sellers must hand the parcel to the logistics partner within 2 working days of the order being\nplaced. Daraz Mall and Fulfilled by Daraz orders are dispatched within 1 working day. Orders not\ndispatched in time may be auto-cancelled and the customer is refunded in full.\n4. At the Time of Delivery\n\nKeep your phone reachable on the registered number; the rider will call before arrival\n\nCheck that the outer packaging is intact before accepting\n\nFor high-value orders above Rs. 10,000, record a short unboxing video when opening the parcel\n\nShare the delivery OTP with the rider only after you have received the parcel\n"
+  },
+  "20": {
+    "id": 20,
+    "department": "delivery",
+    "source_file": "delivery/delivery_guidelines.pdf",
+    "text": "\nShare the delivery OTP with the rider only after you have received the parcel\n\nFor Cash on Delivery, pay the exact amount; riders carry limited change\n5. Delivery OTP\nFor security, most orders use a 4-digit OTP sent by SMS. The OTP confirms that the customer has\nreceived the parcel. Once the OTP is shared with the rider, the order is marked Delivered and any claim of\nnon-delivery will be treated as a fraud risk. Never share the OTP before you physically hold the parcel.\n6. Damaged or Open Packages\nIf the outer packaging is torn, wet or visibly tampered with, the customer may refuse delivery. The rider will\nrecord the refusal reason and a full refund will be processed. If damage is found after opening, raise a\nreturn request within 7 days.\n7. Delivery Address Rules\n"
+  },
+  "21": {
+    "id": 21,
+    "department": "delivery",
+    "source_file": "delivery/delivery_guidelines.pdf",
+    "text": "return request within 7 days.\n7. Delivery Address Rules\n\nDelivery is to the address selected at checkout; it cannot be changed once the order is Shipped\n\nRiders do not deliver to a different person without the OTP\n\nPO Box addresses are not supported"
+  },
+  "22": {
+    "id": 22,
+    "department": "delivery",
+    "source_file": "delivery/delivery_guidelines.pdf",
+    "text": "Daraz Knowledge Base | DL-001 | Sample data for RAG testing\nPage 2\n\nInclude a landmark and a second phone number for faster delivery\n8. Contactless and Safe Drop\nCustomers may request contactless delivery in the order notes. For prepaid orders the rider may leave the\nparcel with a gate guard or neighbour only if the customer confirms by phone and shares the OTP."
+  },
+  "23": {
+    "id": 23,
+    "department": "delivery",
+    "source_file": "delivery/delivery_timelines.pdf",
+    "text": "Daraz Knowledge Base | DL-002 | Sample data for RAG testing\nPage 1\n Delivery Timelines by Region\n Document ID: DL-002  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Delivery\n1. Estimated Delivery Times\nDelivery time is counted in working days from the date the order is placed, and excludes Sundays and\npublic holidays. Estimates assume the item is in stock and the payment is confirmed.\n2. Timeline by Zone\nZone\nCities\nStandard Delivery\nExpress Delivery\nZone A\nKarachi, Lahore,\nIslamabad, Rawalpindi\n1-3 working days\nNext day\nZone B\nFaisalabad, Multan,\nPeshawar, Gujranwala,\nSialkot, Hyderabad, Quetta\n2-4 working days\n2 days\nZone C\nOther district headquarters\nand large towns\n3-5 working days\nNot available\nZone D\nRemote areas,\nGilgit-Baltistan, Azad\nKashmir, interior\nBalochistan"
+  },
+  "24": {
+    "id": 24,
+    "department": "delivery",
+    "source_file": "delivery/delivery_timelines.pdf",
+    "text": "Other district headquarters\nand large towns\n3-5 working days\nNot available\nZone D\nRemote areas,\nGilgit-Baltistan, Azad\nKashmir, interior\nBalochistan\n5-8 working days\nNot available\n3. Express Delivery\nExpress delivery is available in Zone A and Zone B for selected items. Orders placed before 12:00 PM\nPKT are dispatched the same day. Express delivery costs an extra Rs. 200 on top of the standard delivery\nfee and is not available for bulky items.\n4. Item Type Adjustments\nItem Type\nAdditional Time\nFurniture and large appliances\n+2 to +4 working days\nPre-order items\nAs stated on the listing (usually 7-15 days)\nInternational / cross-border items\n10-20 working days\nFresh groceries\nSame day or next day, selected areas only\n5. Sale Event Delays"
+  },
+  "25": {
+    "id": 25,
+    "department": "delivery",
+    "source_file": "delivery/delivery_timelines.pdf",
+    "text": "International / cross-border items\n10-20 working days\nFresh groceries\nSame day or next day, selected areas only\n5. Sale Event Delays\nDuring mega sale events such as 11.11, Black Friday and Ramadan sales, delivery may be delayed by 2\nto 4 additional working days because of high volume. The delay is announced on the app banner and on\nthe checkout page.\n6. Delayed Orders\n\nIf an order is not delivered within 3 working days of the maximum estimate, the customer may cancel it\nfor a full refund\n\nOrders that are more than 15 working days late are cancelled automatically and refunded"
+  },
+  "26": {
+    "id": 26,
+    "department": "delivery",
+    "source_file": "delivery/delivery_timelines.pdf",
+    "text": "Daraz Knowledge Base | DL-002 | Sample data for RAG testing\nPage 2\n\nDelay compensation of a Rs. 100 voucher is given when the delay is caused by Daraz or its logistics\npartner\n7. Order Cutoff Times\nOrders placed after 9:00 PM or on Sundays and public holidays are processed the next working day."
+  },
+  "27": {
+    "id": 27,
+    "department": "delivery",
+    "source_file": "delivery/failed_delivery_and_rider_policy.pdf",
+    "text": "Daraz Knowledge Base | DL-004 | Sample data for RAG testing\nPage 1\n Failed Delivery and Rider Conduct Policy\n Document ID: DL-004  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Delivery\n1. Delivery Attempts\nThe logistics partner makes up to 3 delivery attempts on consecutive working days. Before each attempt\nthe rider calls the customer twice. If the customer does not answer, the attempt is marked failed.\n2. After Failed Attempts\n\nAfter the 3rd failed attempt the parcel is returned to the warehouse\n\nPrepaid orders are refunded after the parcel is received back\n\nCOD orders are cancelled with no charge\n\nCustomers with 3 or more COD failed deliveries in 90 days may be limited to online payment only\n3. Customer Requests a Re-attempt"
+  },
+  "28": {
+    "id": 28,
+    "department": "delivery",
+    "source_file": "delivery/failed_delivery_and_rider_policy.pdf",
+    "text": "\nCustomers with 3 or more COD failed deliveries in 90 days may be limited to online payment only\n3. Customer Requests a Re-attempt\nCustomers can ask for a re-attempt or a new time slot through live chat or the Track Order page before the\n3rd attempt. Re-attempt requests are limited to one per order.\n4. Customer-Not-Available Rules\nIf the customer asks the rider to come back later, this counts as one of the 3 attempts. Customers may\nauthorise a family member to receive the parcel by sharing the OTP with them.\n5. Rider Code of Conduct\n\nRiders must wear the logistics partner uniform and ID card\n\nRiders must not ask for tips, extra fees or payment beyond the order amount\n\nRiders must not open the parcel unless asked for verification\n\nRiders must treat customers respectfully\n"
+  },
+  "29": {
+    "id": 29,
+    "department": "delivery",
+    "source_file": "delivery/failed_delivery_and_rider_policy.pdf",
+    "text": "\nRiders must not open the parcel unless asked for verification\n\nRiders must treat customers respectfully\n\nRiders must not demand a review or rating\n6. Reporting a Rider\nTo report rider misconduct, contact support with the order number and a description. Complaints are\ninvestigated within 3 working days and can lead to warnings, suspension or removal of the rider. Serious\ncases are escalated under the Complaint Escalation Policy (CS-002).\n7. Lost Parcels\nA parcel is marked lost if it cannot be traced for 7 working days after the last tracking update. The\ncustomer receives a full refund within 3 working days of the lost status, or a replacement if available."
+  },
+  "30": {
+    "id": 30,
+    "department": "payments",
+    "source_file": "payments/cash_on_delivery_policy.pdf",
+    "text": "Daraz Knowledge Base | PY-002 | Sample data for RAG testing\nPage 1\n Cash on Delivery (COD) Policy\n Document ID: PY-002  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Payments\n1. Availability\nCOD is available in most cities for orders with a total value up to Rs. 50,000. COD may not be offered for\ncertain categories, such as gift cards, pre-order items and very high-risk products. Some remote areas\nmay be limited to online payment only.\n2. COD Rules\n\nPay the exact amount; riders carry limited change\n\nOnly cash in Pakistani Rupees is accepted\n\nPayment is required before the rider hands over the parcel\n\nCustomers may inspect the outer packaging but may not open the parcel before paying unless the\nlisting offers Open Parcel\n"
+  },
+  "31": {
+    "id": 31,
+    "department": "payments",
+    "source_file": "payments/cash_on_delivery_policy.pdf",
+    "text": "\nCustomers may inspect the outer packaging but may not open the parcel before paying unless the\nlisting offers Open Parcel\n\nOpen Parcel checks apply only to selected Daraz Mall items\n3. COD Handling Fee\nA COD handling fee of Rs. 50 may be added to orders below Rs. 1,500 in Zones C and D. The fee, if any,\nis shown at checkout and is not refunded unless the order is cancelled before shipment.\n4. Failed COD Deliveries\nCustomers with 3 or more failed or refused COD deliveries in 90 days may have COD disabled on their\naccount. They may continue ordering using online payment methods. COD can be re-enabled after 90\ndays without further failed deliveries.\n5. COD Refunds\nCOD orders are refunded to the customer's bank account or mobile wallet (JazzCash or Easypaisa), never"
+  },
+  "32": {
+    "id": 32,
+    "department": "payments",
+    "source_file": "payments/cash_on_delivery_policy.pdf",
+    "text": "5. COD Refunds\nCOD orders are refunded to the customer's bank account or mobile wallet (JazzCash or Easypaisa), never\nin cash. The name on the account must match the name on the Daraz account. See Refund Methods\n(RF-003) for the exact timelines.\n6. Counterfeit Notes\nRiders are trained to check notes. If a counterfeit note is given to a rider, the payment is treated as unpaid\nand the customer remains liable.\n7. Safe Payment Advice\nCustomers should only pay the rider the amount shown on the order. Daraz never asks for advance\npayment to a personal account for COD orders."
+  },
+  "33": {
+    "id": 33,
+    "department": "payments",
+    "source_file": "payments/payment_methods.pdf",
+    "text": "Daraz Knowledge Base | PY-001 | Sample data for RAG testing\nPage 1\n Accepted Payment Methods\n Document ID: PY-001  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Payments\n1. Overview\nDaraz offers multiple payment options at checkout. Available options depend on the order value, delivery\naddress and the items in the cart.\n2. Methods Available\nMethod\nDetails\nLimit per Order\nCash on Delivery (COD)\nPay the rider in cash on delivery\nUp to Rs. 50,000\nCredit / Debit Card\nVisa, Mastercard and UnionPay, with\n3D Secure\nUp to Rs. 500,000\nJazzCash\nPay through mobile wallet or\nJazzCash app\nUp to Rs. 100,000\nEasypaisa\nPay through mobile wallet or\nEasypaisa app\nUp to Rs. 100,000\nOnline Bank Transfer\nVia partner bank internet banking\nUp to Rs. 500,000\nDaraz Wallet"
+  },
+  "34": {
+    "id": 34,
+    "department": "payments",
+    "source_file": "payments/payment_methods.pdf",
+    "text": "Pay through mobile wallet or\nEasypaisa app\nUp to Rs. 100,000\nOnline Bank Transfer\nVia partner bank internet banking\nUp to Rs. 500,000\nDaraz Wallet\nUses balance from refunds and\ntop-ups\nUp to wallet balance\n3. Payment Timeout\nFor online payments, the customer has 30 minutes from placing the order to complete payment. If\npayment is not completed, the order is automatically cancelled and any reserved stock is released.\n4. Split Payments\nCustomers may pay part of an order with Daraz Wallet and the remaining amount by another method.\nCOD cannot be combined with Wallet in the same order.\n5. Payment Failures\n\nIf money is deducted but the order shows Payment Failed, wait 30 minutes; most cases are reversed\nautomatically\n"
+  },
+  "35": {
+    "id": 35,
+    "department": "payments",
+    "source_file": "payments/payment_methods.pdf",
+    "text": "5. Payment Failures\n\nIf money is deducted but the order shows Payment Failed, wait 30 minutes; most cases are reversed\nautomatically\n\nIf not reversed within 24 hours, contact support with a screenshot and the transaction ID\n\nReversals typically take 3 to 7 working days depending on the bank\n6. Invoices and Receipts\nDigital invoices are available in My Orders after delivery. Tax invoices for registered businesses can be\nrequested from support within 30 days of delivery, with the company NTN.\n7. Currency\nAll prices and payments are in Pakistani Rupees (PKR). Prices include applicable sales tax unless stated\notherwise."
+  },
+  "36": {
+    "id": 36,
+    "department": "payments",
+    "source_file": "payments/payment_security_and_fraud.pdf",
+    "text": "Daraz Knowledge Base | PY-003 | Sample data for RAG testing\nPage 1\n Payment Security and Fraud Prevention\n Document ID: PY-003  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Payments\n1. How Daraz Protects Payments\n\nCard payments use 3D Secure with an OTP sent by the bank\n\nCard data is processed by PCI-DSS compliant partners; Daraz stores only the last 4 digits and card\nbrand\n\nAll traffic between the app and servers uses TLS encryption\n\nSuspicious transactions are flagged by an automated fraud system\n2. What Daraz Will Never Ask\nDaraz staff, riders and support agents will never ask for: your account password, full card number, CVV,\nPIN, bank login details or OTP (except the delivery OTP shared with the rider at handover).\n3. Common Scams\nScam\nHow to Recognise It"
+  },
+  "37": {
+    "id": 37,
+    "department": "payments",
+    "source_file": "payments/payment_security_and_fraud.pdf",
+    "text": "PIN, bank login details or OTP (except the delivery OTP shared with the rider at handover).\n3. Common Scams\nScam\nHow to Recognise It\nFake prize calls\nCaller says you won a prize and needs a fee or OTP\nFake seller links\nSeller sends a link outside Daraz to pay\nRefund scam\nCaller claims to process a refund and requests OTP\nFake support numbers\nNumbers found on social media pages not verified by\nDaraz\n4. Reporting Fraud\nIf a customer suspects fraud, they should immediately contact support, block the card with the issuing\nbank, and change the Daraz password. Suspected fraud cases are reviewed within 24 hours, and\nconfirmed unauthorised transactions are refunded within 10 working days.\n5. Account Protection\n\nEnable two-step verification in Account > Security\n\nUse a strong, unique password\n"
+  },
+  "38": {
+    "id": 38,
+    "department": "payments",
+    "source_file": "payments/payment_security_and_fraud.pdf",
+    "text": "5. Account Protection\n\nEnable two-step verification in Account > Security\n\nUse a strong, unique password\n\nDo not log in on shared devices\n\nReview login notifications sent by SMS\n6. Order Holds for Verification\nSome orders may be placed on hold for up to 24 hours for verification. The customer may be asked to\nconfirm the order by phone or WhatsApp. Orders that cannot be verified are cancelled and refunded.\n7. Double Charges\nDuplicate charges for the same order are reviewed within 5 working days, and the extra amount is\nrefunded to the original payment method."
+  },
+  "39": {
+    "id": 39,
+    "department": "payments",
+    "source_file": "payments/wallet_vouchers_and_installments.pdf",
+    "text": "Daraz Knowledge Base | PY-004 | Sample data for RAG testing\nPage 1\n Wallet, Vouchers and Installments\n Document ID: PY-004  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Payments\n1. Daraz Wallet\n\nWallet stores refunds and top-ups and can be used at checkout\n\nBalance expires 12 months after the last transaction\n\nTop-up limit: Rs. 100,000 per month\n\nWallet balance can be withdrawn to a bank account on request, taking 5-7 business days\n\nWallet cannot be used to buy gift cards\n2. Vouchers\nVoucher Type\nRule\nDiscount voucher\nMinimum basket value applies; validity shown on voucher\nFree delivery voucher\nValid for 7 days; not combined with another delivery\nvoucher\nSeller voucher\nApplies only to that seller's items\nPlatform voucher\nApplies to selected categories or campaigns"
+  },
+  "40": {
+    "id": 40,
+    "department": "payments",
+    "source_file": "payments/wallet_vouchers_and_installments.pdf",
+    "text": "voucher\nSeller voucher\nApplies only to that seller's items\nPlatform voucher\nApplies to selected categories or campaigns\n3. Voucher Stacking\nOne platform voucher and one seller voucher may be used on the same order. Two vouchers of the same\ntype cannot be combined. Vouchers cannot be exchanged for cash.\n4. Vouchers and Refunds\nWhen an order paid with a voucher is cancelled or fully returned, the voucher is re-issued to the\ncustomer's account for 30 days where possible. Discount value is not refunded as cash.\n5. Installments\nPlan\nEligibility\nMarkup\n3 months\nOrders of Rs. 10,000 or above\n0%\n6 months\nOrders of Rs. 20,000 or above\n0% on selected cards, otherwise\nbank rates\n12 months\nOrders of Rs. 40,000 or above\nAs per bank policy"
+  },
+  "41": {
+    "id": 41,
+    "department": "payments",
+    "source_file": "payments/wallet_vouchers_and_installments.pdf",
+    "text": "0%\n6 months\nOrders of Rs. 20,000 or above\n0% on selected cards, otherwise\nbank rates\n12 months\nOrders of Rs. 40,000 or above\nAs per bank policy\nInstallments are available only on credit cards issued by partner banks. The bank may charge a\nprocessing fee. The installment plan is set up by the bank after the order is confirmed.\n6. Returns on Installment Orders\nFor returned items paid by installments, the refund is sent to the credit card and the bank reverses the\nremaining installments. Customers should keep paying due installments until the bank confirms the\nreversal, to avoid late fees."
+  },
+  "42": {
+    "id": 42,
+    "department": "payments",
+    "source_file": "payments/wallet_vouchers_and_installments.pdf",
+    "text": "Daraz Knowledge Base | PY-004 | Sample data for RAG testing\nPage 2\n7. Gift Cards\nGift cards are valid for 12 months from purchase, are non-refundable and non-returnable, and cannot be\nused to buy other gift cards."
+  },
+  "43": {
+    "id": 43,
+    "department": "refunds",
+    "source_file": "refunds/refund_disputes.pdf",
+    "text": "Daraz Knowledge Base | RF-004 | Sample data for RAG testing\nPage 1\n Refund Disputes and Rejections\n Document ID: RF-004  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Refunds\n1. Why a Refund May Be Rejected\n\nReturn request made after the return window\n\nItem failed quality check (used, damaged by customer, missing parts)\n\nItem belongs to a non-returnable category and has no defect\n\nSerial or IMEI mismatch, suggesting swapped goods\n\nEvidence of misuse of the returns system\n2. Customer Notification\nEvery rejection is communicated through the app, SMS and email, and includes the specific reason and\nsupporting QC photos. Generic rejections without evidence are not permitted.\n3. Appeal Process\n\nCustomers have 3 days from the rejection notice to appeal\n"
+  },
+  "44": {
+    "id": 44,
+    "department": "refunds",
+    "source_file": "refunds/refund_disputes.pdf",
+    "text": "3. Appeal Process\n\nCustomers have 3 days from the rejection notice to appeal\n\nAppeal is made through Return Details > Appeal or by contacting support\n\nA different reviewer examines the case and responds within 3 working days\n\nAdditional evidence, such as unboxing video or invoices, may be submitted\n\nThe appeal decision is final, except for escalation under the Complaint Escalation Policy (CS-002)\n4. Returned Rejected Items\nIf a return fails QC and the refund is rejected, the item is sent back to the customer at no charge if the\ncustomer requests it within 7 days. After 7 days, Daraz may dispose of or resell the item.\n5. Seller Disputes\nA Marketplace seller may dispute a return within 2 working days of receiving it. If the seller and customer"
+  },
+  "45": {
+    "id": 45,
+    "department": "refunds",
+    "source_file": "refunds/refund_disputes.pdf",
+    "text": "5. Seller Disputes\nA Marketplace seller may dispute a return within 2 working days of receiving it. If the seller and customer\ndisagree, Daraz's Dispute Team reviews all evidence. Under the Buyer Protection Program, if the\nevidence is inconclusive the decision favours the customer.\n6. Chargebacks\nIf a customer files a chargeback with their bank while a refund request is open, the Daraz refund is paused\nuntil the bank decides. The customer will not receive both the chargeback and the refund. Duplicate\nrecoveries are reversed.\n7. Fraud Prevention\nRepeated false claims, such as claiming non-delivery of an item that was delivered with OTP confirmation,\nmay lead to refund restrictions or account suspension after a fair review."
+  },
+  "46": {
+    "id": 46,
+    "department": "refunds",
+    "source_file": "refunds/refund_methods.pdf",
+    "text": "Daraz Knowledge Base | RF-003 | Sample data for RAG testing\nPage 1\n Refund Methods and Payment Rules\n Document ID: RF-003  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Refunds\n1. General Rule\nRefunds are paid back to the original payment method whenever possible. This protects customers and\ncomplies with anti-fraud and banking regulations.\n2. Method by Original Payment\nOriginal Payment\nRefund Destination\nAlternative Option\nCredit or debit card\nSame card\nDaraz Wallet (faster)\nJazzCash / Easypaisa\nSame mobile wallet\nDaraz Wallet\nOnline bank transfer\nSame bank account\nDaraz Wallet\nDaraz Wallet\nDaraz Wallet\nNot applicable\nCash on Delivery\nCustomer's bank or\nJazzCash/Easypaisa\nDaraz Wallet\n3. Collecting Bank Details for COD"
+  },
+  "47": {
+    "id": 47,
+    "department": "refunds",
+    "source_file": "refunds/refund_methods.pdf",
+    "text": "Daraz Wallet\nDaraz Wallet\nNot applicable\nCash on Delivery\nCustomer's bank or\nJazzCash/Easypaisa\nDaraz Wallet\n3. Collecting Bank Details for COD\nFor COD refunds the customer submits: account holder name, bank name, account number or IBAN (or\nmobile wallet number), and CNIC last 4 digits for verification. Incorrect details will delay the refund by an\nadditional 5-7 business days. Daraz is not responsible for refunds sent to an account number entered\nincorrectly by the customer.\n4. Refund Limits\n\nWallet refunds: no limit\n\nJazzCash / Easypaisa refunds: up to Rs. 100,000 per transaction (higher amounts are sent by bank\ntransfer)\n\nCash refunds: not available\n5. Currency and Fees\nAll refunds are in Pakistani Rupees (PKR). Daraz does not charge a refund processing fee. Any currency"
+  },
+  "48": {
+    "id": 48,
+    "department": "refunds",
+    "source_file": "refunds/refund_methods.pdf",
+    "text": "5. Currency and Fees\nAll refunds are in Pakistani Rupees (PKR). Daraz does not charge a refund processing fee. Any currency\nconversion or card fees applied by the customer's bank are outside Daraz's control.\n6. Expired or Closed Payment Accounts\nIf the original card or account is closed, the customer should contact support within 30 days to provide an\nalternative method. Unclaimed refunds are credited to the Daraz Wallet after 30 days."
+  },
+  "49": {
+    "id": 49,
+    "department": "refunds",
+    "source_file": "refunds/refund_procedures.pdf",
+    "text": "Daraz Knowledge Base | RF-001 | Sample data for RAG testing\nPage 1\n Refund Procedures\n Document ID: RF-001  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Refunds\n1. Purpose\nThis document describes how refunds are requested, verified and paid out. A refund is triggered when an\norder is cancelled, a return passes quality check, an item is undelivered, or a dispute is resolved in the\ncustomer's favour.\n2. Refund Triggers\nScenario\nRefund Starts When\nOrder cancelled before shipment\nCancellation is confirmed\nOrder undelivered / lost in transit\nOrder is marked lost by logistics\nFailed delivery (3 attempts)\nParcel returns to warehouse\nReturn approved\nReturn passes quality check\nWrong or missing item\nClaim is approved\nDuplicate payment\nDuplicate is verified\n3. Step-by-Step Process\n"
+  },
+  "50": {
+    "id": 50,
+    "department": "refunds",
+    "source_file": "refunds/refund_procedures.pdf",
+    "text": "Return approved\nReturn passes quality check\nWrong or missing item\nClaim is approved\nDuplicate payment\nDuplicate is verified\n3. Step-by-Step Process\n\nStep 1: Customer cancels the order or raises a return request in the app\n\nStep 2: Request is reviewed and approved (within 24 hours)\n\nStep 3: For returns, the item is picked up and passes quality check\n\nStep 4: Refund is initiated and the customer receives an SMS and email confirmation\n\nStep 5: Money reaches the customer according to the refund method timeline\n\nStep 6: Case is closed after the customer confirms or after 7 days of no response\n4. Refund Amount\nThe refund normally covers the item price and any shipping fee paid, except in change-of-mind returns"
+  },
+  "51": {
+    "id": 51,
+    "department": "refunds",
+    "source_file": "refunds/refund_procedures.pdf",
+    "text": "4. Refund Amount\nThe refund normally covers the item price and any shipping fee paid, except in change-of-mind returns\nwhere a Rs. 150 return fee is deducted and the original shipping fee is not refunded. Voucher discounts\nused on the order are not refunded as cash. Instead, unused vouchers are re-issued to the customer's\naccount for 30 days where possible.\n5. Partial Refunds\nA partial refund may be issued if an item is returned with missing accessories (deduction equal to the\naccessory's listed value), or if the customer agrees to keep a slightly damaged item in exchange for a\ndiscount. Partial refunds require the customer's explicit consent.\n6. Cash on Delivery Orders\nBecause no online payment was made, COD refunds require the customer to provide a bank account or"
+  },
+  "52": {
+    "id": 52,
+    "department": "refunds",
+    "source_file": "refunds/refund_procedures.pdf",
+    "text": "6. Cash on Delivery Orders\nBecause no online payment was made, COD refunds require the customer to provide a bank account or\nmobile wallet (JazzCash or Easypaisa). The account holder name must match the name on the Daraz\naccount. Refunds cannot be paid in cash."
+  },
+  "53": {
+    "id": 53,
+    "department": "refunds",
+    "source_file": "refunds/refund_procedures.pdf",
+    "text": "Daraz Knowledge Base | RF-001 | Sample data for RAG testing\nPage 2\n7. Proof of Refund\nCustomers can download a refund confirmation from My Orders > Refund Details. It shows the refund\nreference number (format RF-XXXXXXXX), amount, method and date."
+  },
+  "54": {
+    "id": 54,
+    "department": "refunds",
+    "source_file": "refunds/refund_timelines.pdf",
+    "text": "Daraz Knowledge Base | RF-002 | Sample data for RAG testing\nPage 1\n Refund Timelines\n Document ID: RF-002  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Refunds\n1. How Timelines Work\nThe refund timeline starts on the day the refund is initiated (after quality check for returns, or after\nconfirmation for cancellations), not on the day the return was requested. Timelines are in business days\nand exclude Sundays and public holidays.\n2. Timeline by Refund Method\nRefund Method\nExpected Time After Initiation\nDaraz Wallet\nInstant to 1 business day\nJazzCash / Easypaisa\n2-4 business days\nBank account transfer (COD orders)\n5-7 business days\nDebit card\n7-10 business days\nCredit card\n7-14 business days\nBank transfer (online banking)\n5-7 business days\n3. End-to-End Example"
+  },
+  "55": {
+    "id": 55,
+    "department": "refunds",
+    "source_file": "refunds/refund_timelines.pdf",
+    "text": "5-7 business days\nDebit card\n7-10 business days\nCredit card\n7-14 business days\nBank transfer (online banking)\n5-7 business days\n3. End-to-End Example\nA customer returns a phone on Monday. The parcel reaches the warehouse on Wednesday, and quality\ncheck completes on Friday. Refund is initiated on Friday. If the customer chose Daraz Wallet, the money\nappears by Saturday (Sunday excluded). If the customer chose a credit card, the money may take up to 14\nbusiness days, so around the third week of the month.\n4. Timeline by Scenario\nScenario\nTime to Initiate Refund\nCancellation before shipment (prepaid)\nWithin 24 hours\nUndelivered order\nWithin 3 working days of lost status\nReturn passes QC\nWithin 2 working days\nSeller does not respond to dispute\nAfter 2 working days\n5. Delayed Refunds"
+  },
+  "56": {
+    "id": 56,
+    "department": "refunds",
+    "source_file": "refunds/refund_timelines.pdf",
+    "text": "Return passes QC\nWithin 2 working days\nSeller does not respond to dispute\nAfter 2 working days\n5. Delayed Refunds\nIf a refund has not reached the customer after the maximum timeline for their method, they should contact\nsupport with the refund reference number. Daraz will request a bank trace and provide an update within 3\nworking days. For credit card refunds, customers should also check with their bank, as statement posting\ncan take extra days.\n6. Wallet Preference\nChoosing Daraz Wallet is the fastest option. Wallet balance can be used immediately on future purchases\nand does not expire for 12 months. Wallet funds can be withdrawn to a bank account on request, subject\nto the standard 5-7 business day timeline."
+  },
+  "57": {
+    "id": 57,
+    "department": "returns",
+    "source_file": "returns/non_returnable_items.pdf",
+    "text": "Daraz Knowledge Base | RT-004 | Sample data for RAG testing\nPage 1\n Non-Returnable Items List\n Document ID: RT-004  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Returns\n1. Overview\nFor hygiene, safety, legal or practical reasons, certain items cannot be returned for change of mind. If such\nan item arrives damaged, defective, expired or wrong, it is still covered for a return or refund.\n2. Non-Returnable Categories\nItem Type\nReason\nInnerwear, lingerie, swimwear, socks\nHygiene\nOpened cosmetics, skincare and perfumes\nHygiene and safety\nEarphones and headphones (once opened)\nHygiene\nPerishable food and fresh groceries\nSpoilage\nDigital products, gift cards, vouchers, game codes\nCannot be recovered\nCustomised or personalised items\nMade to order"
+  },
+  "58": {
+    "id": 58,
+    "department": "returns",
+    "source_file": "returns/non_returnable_items.pdf",
+    "text": "Spoilage\nDigital products, gift cards, vouchers, game codes\nCannot be recovered\nCustomised or personalised items\nMade to order\nSoftware and subscription activations\nAlready consumed\nMedicines and medical devices\nRegulatory\nItems marked 'Final Sale' on the listing\nSold as-is\n3. Exceptions\nThe non-returnable status does not apply if the item is: (a) damaged or defective on arrival, (b) not as\ndescribed, (c) wrong item, or (d) expired when delivered. These cases follow the standard 7-day window.\n4. Clearly Marked Listings\nSellers must mark non-returnable items clearly on the product page before purchase. If a listing does not\nshow this marking, the item is treated as returnable under standard rules."
+  },
+  "59": {
+    "id": 59,
+    "department": "returns",
+    "source_file": "returns/return_eligibility.pdf",
+    "text": "Daraz Knowledge Base | RT-002 | Sample data for RAG testing\nPage 1\n Return Eligibility Criteria\n Document ID: RT-002  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Returns\n1. Overview\nThis document lists which products and conditions qualify for return. It should be read together with the\nReturn Policy (RT-001).\n2. Eligibility by Category\nCategory\nChange of Mind\nDefective / Wrong Item\nNotes\nClothing and shoes\nYes (tags on, unworn)\nYes\nTry-on at home allowed\nMobile phones\nNo\nYes (DOA within 7 days)\nSeal and IMEI must match\nLaptops and tablets\nNo\nYes (DOA within 7 days)\nDo not install software\nbefore testing\nHome appliances\nNo\nYes\nInstallation defects go to\nwarranty\nBooks and stationery\nYes (unused)\nYes\nMust have no markings\nToys and baby products\nYes (sealed)\nYes"
+  },
+  "60": {
+    "id": 60,
+    "department": "returns",
+    "source_file": "returns/return_eligibility.pdf",
+    "text": "No\nYes\nInstallation defects go to\nwarranty\nBooks and stationery\nYes (unused)\nYes\nMust have no markings\nToys and baby products\nYes (sealed)\nYes\nOpened baby items not\nreturnable\nFurniture\nNo\nYes\nReport within 48 hours of\ndelivery\nGroceries\nNo\nYes (if damaged or\nexpired)\nReport on delivery\nBeauty and personal care\nNo\nYes\nMust be sealed unless\ndefective\n3. Dead on Arrival (DOA) Rule\nA product is considered DOA if it does not power on or has a manufacturing fault at the time of first use\nwithin 7 days of delivery. DOA claims require a short video of the fault. Approved DOA claims are replaced\nwith a new unit where stock is available, otherwise fully refunded.\n4. Furniture and Large Items\nFurniture and large appliances must be inspected at delivery. Visible damage should be reported within 48"
+  },
+  "61": {
+    "id": 61,
+    "department": "returns",
+    "source_file": "returns/return_eligibility.pdf",
+    "text": "4. Furniture and Large Items\nFurniture and large appliances must be inspected at delivery. Visible damage should be reported within 48\nhours of delivery with photos. Assembly-related damage caused by the customer is not eligible.\n5. Conditions That Make an Item Ineligible\n\nSigns of use, wear, washing, stains or odour\n\nMissing tags, packaging, accessories or free gifts\n\nPhysical damage caused after delivery\n\nSerial number or IMEI mismatch\n\nReturn requested after the window has closed\n\nProduct altered, repaired or opened by an unauthorised person"
+  },
+  "62": {
+    "id": 62,
+    "department": "returns",
+    "source_file": "returns/return_eligibility.pdf",
+    "text": "Daraz Knowledge Base | RT-002 | Sample data for RAG testing\nPage 2\n6. Manufacturer Warranty\nItems outside the 7-day return window but within the manufacturer warranty should be taken to the brand's\nservice centre. Daraz support can share the warranty terms and service centre list on request."
+  },
+  "63": {
+    "id": 63,
+    "department": "returns",
+    "source_file": "returns/return_policy.pdf",
+    "text": "Daraz Knowledge Base | RT-001 | Sample data for RAG testing\nPage 1\n Return Policy\n Document ID: RT-001  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Returns\n1. Purpose and Scope\nThis policy describes when and how a customer may return an item purchased on Daraz. It applies to\nDaraz Mall and Marketplace orders delivered within Pakistan.\n2. Return Windows\nCategory\nReturn Window\nCounted From\nStandard products\n7 days\nDate of delivery\nDaraz Mall products\n14 days\nDate of delivery\nFashion and apparel\n7 days\nDate of delivery\nElectronics and appliances\n7 days\nDate of delivery\nDead on Arrival (DOA) electronics\n7 days\nDate of delivery\nWrong or missing item\n7 days\nDate of delivery\nThe return request must be raised inside the window. After the window closes, the item is not eligible for"
+  },
+  "64": {
+    "id": 64,
+    "department": "returns",
+    "source_file": "returns/return_policy.pdf",
+    "text": "7 days\nDate of delivery\nThe return request must be raised inside the window. After the window closes, the item is not eligible for\nreturn except where a manufacturer warranty applies.\n3. Valid Reasons for Return\n\nItem is damaged or defective on arrival\n\nItem is different from the order (wrong size, colour, model or product)\n\nItem is missing parts or accessories\n\nItem does not match the description or photos on the listing\n\nItem is suspected to be counterfeit\n\nChange of mind (eligible categories only, see Return Eligibility)\n4. Condition Requirements\n\nItem must be unused, unwashed and in original condition\n\nOriginal packaging, tags, labels, manuals and free gifts must be included\n\nSerial numbers and IMEI must match the delivered product\n"
+  },
+  "65": {
+    "id": 65,
+    "department": "returns",
+    "source_file": "returns/return_policy.pdf",
+    "text": "\nOriginal packaging, tags, labels, manuals and free gifts must be included\n\nSerial numbers and IMEI must match the delivered product\n\nAny seals must be intact, unless the product was defective on arrival\n5. Return Process Summary\n\nStep 1: Open My Orders, select the item and tap Return/Refund\n\nStep 2: Choose a reason and upload photos (mandatory for damage, wrong item and defect claims)\n\nStep 3: Receive approval or rejection within 24 hours\n\nStep 4: Hand the parcel to the pickup rider or drop it at a partner point\n\nStep 5: Quality check at the warehouse, then the refund is processed"
+  },
+  "66": {
+    "id": 66,
+    "department": "returns",
+    "source_file": "returns/return_policy.pdf",
+    "text": "Daraz Knowledge Base | RT-001 | Sample data for RAG testing\nPage 2\n6. Return Shipping Fees\nReason\nWho Pays Return Shipping\nDamaged, defective, wrong or missing item\nDaraz / seller (free pickup)\nChange of mind\nCustomer, flat fee Rs. 150 deducted from refund\n7. Returns to Sellers\nFor Marketplace orders, the seller has 2 working days after the returned item is received to dispute the\nreturn. If the seller does not dispute within this time, the return is accepted automatically and the refund is\nissued to the customer.\n8. Limits\nA customer may submit a maximum of 5 return requests per calendar month. Accounts showing a pattern\nof return abuse (more than 40% of orders returned over 6 months) may be reviewed and have\nchange-of-mind returns disabled."
+  },
+  "67": {
+    "id": 67,
+    "department": "returns",
+    "source_file": "returns/return_shipping_and_pickup.pdf",
+    "text": "Daraz Knowledge Base | RT-003 | Sample data for RAG testing\nPage 1\n Return Shipping and Pickup Guide\n Document ID: RT-003  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Returns\n1. Pickup Options\nOption\nAvailability\nCost\nRider pickup from address\nMajor cities (Karachi, Lahore,\nIslamabad, Rawalpindi, Faisalabad,\nMultan, Peshawar, Gujranwala)\nFree for valid-reason returns\nDrop-off at partner point\nAll cities with a pickup station\nFree\nSelf-ship via courier\nAreas without pickup service\nCourier fee reimbursed up to Rs. 300\non approval\n2. Scheduling a Pickup\nAfter a return request is approved, the customer selects a pickup slot: Morning (9 AM - 1 PM) or Evening\n(2 PM - 7 PM). The rider makes up to 2 pickup attempts. If both fail, the return request is cancelled and"
+  },
+  "68": {
+    "id": 68,
+    "department": "returns",
+    "source_file": "returns/return_shipping_and_pickup.pdf",
+    "text": "(2 PM - 7 PM). The rider makes up to 2 pickup attempts. If both fail, the return request is cancelled and\nmust be raised again within the original return window.\n3. Packaging Instructions\n\nPlace the item in its original box where possible\n\nInclude all accessories, manuals and free gifts\n\nDo not write on or tape over the original product box; use an outer bag or box\n\nAttach the return label printed or shown in the app to the outside of the parcel\n\nKeep the pickup receipt until the refund is completed\n4. Tracking a Return\nReturn parcels can be tracked in My Orders > Returns. Statuses: Approved, Pickup Scheduled, Picked\nUp, Received at Warehouse, Quality Check, Refund Initiated, Completed.\n5. Lost Return Parcels"
+  },
+  "69": {
+    "id": 69,
+    "department": "returns",
+    "source_file": "returns/return_shipping_and_pickup.pdf",
+    "text": "Up, Received at Warehouse, Quality Check, Refund Initiated, Completed.\n5. Lost Return Parcels\nIf a parcel is lost after pickup, Daraz bears the loss. The customer's refund is issued on the basis of the\npickup receipt and is not delayed by the investigation.\n6. Quality Check (QC)\nQuality check takes 2-3 working days from the time the parcel reaches the warehouse. The QC team\nverifies condition, accessories, serial numbers and matches the item to the original order. If QC fails, the\ncustomer is notified with photo evidence and may appeal within 3 days."
+  },
+  "70": {
+    "id": 70,
+    "department": "sellers",
+    "source_file": "sellers/seller_fees_and_payouts.pdf",
+    "text": "Daraz Knowledge Base | SL-003 | Sample data for RAG testing\nPage 1\n Seller Fees, Commission and Payouts\n Document ID: SL-003  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Sellers\n1. Fee Structure\nDaraz charges a commission on each item sold, plus a payment processing fee. Registration and listing\nare free.\n2. Commission by Category\nCategory\nCommission\nMobile phones and accessories\n3% - 5%\nElectronics and computing\n4% - 6%\nHome appliances\n5% - 7%\nFashion and apparel\n8% - 10%\nBeauty and health\n7% - 9%\nGroceries\n4% - 6%\nHome and living\n6% - 8%\nBooks, toys and stationery\n5% - 8%\n3. Payment Processing Fee\nA payment processing fee of 2% of the order value (including shipping) applies on prepaid orders. A COD\nhandling fee of Rs. 50 per order applies on Cash on Delivery orders."
+  },
+  "71": {
+    "id": 71,
+    "department": "sellers",
+    "source_file": "sellers/seller_fees_and_payouts.pdf",
+    "text": "handling fee of Rs. 50 per order applies on Cash on Delivery orders.\n4. Shipping Fee Settlement\nDelivery charges paid by the customer are passed to the logistics partner. For orders where the seller\noffers free shipping, the shipping cost is deducted from the seller's payout.\n5. Payout Cycle\n\nPayouts are released weekly, every Wednesday\n\nAn order becomes eligible for payout 7 days after it is marked Delivered\n\nOrders with open returns or disputes are held until resolved\n\nPayouts are sent to the bank account registered in the Seller Center\n\nNew sellers have a 14-day payout hold on their first 3 orders for verification\n6. Minimum Payout\nThe minimum payout amount is Rs. 500. Balances below this amount are carried forward to the next cycle.\n7. Deductions\n"
+  },
+  "72": {
+    "id": 72,
+    "department": "sellers",
+    "source_file": "sellers/seller_fees_and_payouts.pdf",
+    "text": "6. Minimum Payout\nThe minimum payout amount is Rs. 500. Balances below this amount are carried forward to the next cycle.\n7. Deductions\n\nRefunds approved against the seller for returns, less shipping if the fault is the customer's\n\nPenalty charges under SL-004\n\nAdvertising spend (Sponsored Discovery), if opted in"
+  },
+  "73": {
+    "id": 73,
+    "department": "sellers",
+    "source_file": "sellers/seller_fees_and_payouts.pdf",
+    "text": "Daraz Knowledge Base | SL-003 | Sample data for RAG testing\nPage 2\n\nUnpaid subscription or service fees\n8. Statements\nSellers can download a detailed statement of account from Seller Center > Finance. Statements show\norders, commission, fees, refunds, penalties and net payout for each week."
+  },
+  "74": {
+    "id": 74,
+    "department": "sellers",
+    "source_file": "sellers/seller_onboarding.pdf",
+    "text": "Daraz Knowledge Base | SL-001 | Sample data for RAG testing\nPage 1\n Seller Onboarding Guide\n Document ID: SL-001  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Sellers\n1. Overview\nThis guide explains how a business or individual can become a seller on the Daraz Marketplace.\nRegistration is free. Approval normally takes 3 to 5 working days after all documents are submitted.\n2. Eligibility\n\nThe seller must be at least 18 years old and a Pakistani resident\n\nThe seller must hold a valid CNIC\n\nThe seller must have a bank account in the business or owner's name\n\nThe seller must sell genuine products and comply with all Daraz policies\n3. Required Documents\nSeller Type\nDocuments Required\nIndividual / Sole proprietor\nCNIC (front and back), bank account proof or cancelled"
+  },
+  "75": {
+    "id": 75,
+    "department": "sellers",
+    "source_file": "sellers/seller_onboarding.pdf",
+    "text": "3. Required Documents\nSeller Type\nDocuments Required\nIndividual / Sole proprietor\nCNIC (front and back), bank account proof or cancelled\ncheque, business address proof\nRegistered company\nCNIC of authorised person, NTN certificate, SECP\nregistration certificate, bank account in company name\nDaraz Mall (brand) seller\nAll company documents plus trademark registration or\nauthorisation letter from the brand owner\n4. Onboarding Steps\n\nStep 1: Create an account with mobile number and email\n\nStep 2: Submit business information and documents\n\nStep 3: Verification by the Seller Support team (3-5 working days)\n\nStep 4: Video or phone verification call\n\nStep 5: Listing the first products and setting shipping options\n\nStep 6: Seller Center training (45 minutes, mandatory for new sellers)\n"
+  },
+  "76": {
+    "id": 76,
+    "department": "sellers",
+    "source_file": "sellers/seller_onboarding.pdf",
+    "text": "\nStep 5: Listing the first products and setting shipping options\n\nStep 6: Seller Center training (45 minutes, mandatory for new sellers)\n\nStep 7: Store goes live\n5. Product Listing Requirements\n\nMinimum 3 clear photos per product on a white or neutral background\n\nAccurate title, brand, category, size and colour\n\nHonest description; no misleading claims or fake discounts\n\nCorrect weight and dimensions for shipping calculation\n\nClear marking of non-returnable items before purchase\n6. Prohibited Items"
+  },
+  "77": {
+    "id": 77,
+    "department": "sellers",
+    "source_file": "sellers/seller_onboarding.pdf",
+    "text": "Daraz Knowledge Base | SL-001 | Sample data for RAG testing\nPage 2\nSellers may not list counterfeit goods, weapons, tobacco, alcohol, drugs, adult content, stolen goods, or\nany item banned by Pakistani law. Listing a prohibited item leads to immediate removal and may lead to\nstore suspension.\n7. Daraz Mall Requirements\nDaraz Mall is for authorised brand stores and official distributors. Mall sellers pay a refundable security\ndeposit of Rs. 100,000 and offer a 14-day return window on all products.\n8. Rejected Applications\nIf an application is rejected, the seller receives the reason by email and may re-apply after 14 days with\ncorrected documents."
+  },
+  "78": {
+    "id": 78,
+    "department": "sellers",
+    "source_file": "sellers/seller_penalty_policy.pdf",
+    "text": "Daraz Knowledge Base | SL-004 | Sample data for RAG testing\nPage 1\n Seller Performance and Penalty Policy\n Document ID: SL-004  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Sellers\n1. Performance Metrics\nMetric\nTarget\nPenalty Threshold\nLate dispatch rate\nBelow 5%\nAbove 10%\nSeller-cancelled orders\nBelow 2%\nAbove 5%\nReturn rate (seller fault)\nBelow 5%\nAbove 10%\nChat response rate\nAbove 90%\nBelow 70%\nCustomer rating\n4.0 or higher\nBelow 3.0\n2. Penalty Points\nViolation\nPoints\nLate dispatch\n1 point per order\nSeller cancellation after confirmation\n2 points per order\nWrong item sent\n2 points per order\nRude behaviour with customer\n3 points\nRequesting off-platform payment\n5 points\nSelling counterfeit goods\n10 points and immediate suspension\n3. Actions by Points Total"
+  },
+  "79": {
+    "id": 79,
+    "department": "sellers",
+    "source_file": "sellers/seller_penalty_policy.pdf",
+    "text": "3 points\nRequesting off-platform payment\n5 points\nSelling counterfeit goods\n10 points and immediate suspension\n3. Actions by Points Total\nPoints in 90 Days\nAction\n5 - 9\nWarning email\n10 - 14\nListings hidden from search for 7 days\n15 - 19\nStore suspended for 14 days\n20 or more\nPermanent ban review\n4. Appeals\nSellers may appeal a penalty within 7 days from the notice. The appeal must include evidence such as\ncourier receipts, chat screenshots or photos. The Seller Support team decides within 5 working days.\n5. Counterfeit Goods\nSelling counterfeit goods leads to immediate store suspension, removal of all listings, and withholding of\nthe seller's balance pending investigation. Daraz may report the matter to the relevant authorities and\nbrand owners.\n6. Account Reactivation"
+  },
+  "80": {
+    "id": 80,
+    "department": "sellers",
+    "source_file": "sellers/seller_penalty_policy.pdf",
+    "text": "Daraz Knowledge Base | SL-004 | Sample data for RAG testing\nPage 2\nA suspended store may apply for reactivation after the suspension period. The seller must complete a\nrefresher course and a Rs. 5,000 reinstatement fee may apply. Permanently banned sellers may not open\nnew accounts.\n7. Incentives\nSellers maintaining a rating of 4.5 or higher and a late dispatch rate below 2% for 3 months qualify for the\nPreferred Seller badge, priority in search ranking and a 1% commission reduction."
+  },
+  "81": {
+    "id": 81,
+    "department": "sellers",
+    "source_file": "sellers/seller_policies.pdf",
+    "text": "Daraz Knowledge Base | SL-002 | Sample data for RAG testing\nPage 1\n Seller Policies and Code of Conduct\n Document ID: SL-002  |  Version 3.2  |  Effective: 1 January 2026  |  Department: Sellers\n1. Core Principles\nSellers must act honestly, deliver on time, and treat customers fairly. They are responsible for the\naccuracy of their listings, the quality of products and the conduct of any staff.\n2. Order Handling Deadlines\nAction\nDeadline\nConfirm a new order\nWithin 24 hours\nHand parcel to logistics partner\nWithin 2 working days\nRespond to customer chat\nWithin 24 hours\nRespond to a return dispute\nWithin 2 working days\nProvide replacement or refund approval\nWithin 3 working days\n3. Authentic Products"
+  },
+  "82": {
+    "id": 82,
+    "department": "sellers",
+    "source_file": "sellers/seller_policies.pdf",
+    "text": "Within 24 hours\nRespond to a return dispute\nWithin 2 working days\nProvide replacement or refund approval\nWithin 3 working days\n3. Authentic Products\nAll products must be genuine. Brand authorisation may be requested at any time. If a product is reported\nas counterfeit and verified, the customer is refunded in full, the listing is removed and the seller is\npenalised under the Seller Penalty Policy (SL-004).\n4. Pricing Rules\n\nThe listed price must be the final price; hidden fees are prohibited\n\nFake discount markups (raising the price before a sale) are not allowed\n\nSellers must honour the price at the time of order even if it is changed afterwards\n\nPrice or stock errors are the seller's responsibility\n5. Returns and Refunds"
+  },
+  "83": {
+    "id": 83,
+    "department": "sellers",
+    "source_file": "sellers/seller_policies.pdf",
+    "text": "\nPrice or stock errors are the seller's responsibility\n5. Returns and Refunds\nSellers must accept valid returns under the Return Policy (RT-001). A seller may dispute a return within 2\nworking days of receiving the item, with photo evidence. If a seller fails to respond, the return is accepted\nautomatically. Sellers may not ask customers to cancel or change the return reason.\n6. Customer Communication\nSellers must not ask customers to pay outside the Daraz platform, share personal phone numbers for\noff-platform deals, or ask for positive reviews in exchange for gifts or refunds. Violations can lead to\nimmediate suspension.\n7. Packaging\nProducts must be packed securely with protective material. Fragile items must be marked Fragile. Invoice"
+  },
+  "84": {
+    "id": 84,
+    "department": "sellers",
+    "source_file": "sellers/seller_policies.pdf",
+    "text": "immediate suspension.\n7. Packaging\nProducts must be packed securely with protective material. Fragile items must be marked Fragile. Invoice\nand warranty cards must be included where applicable.\n8. Account Sharing and Accuracy"
+  },
+  "85": {
+    "id": 85,
+    "department": "sellers",
+    "source_file": "sellers/seller_policies.pdf",
+    "text": "Daraz Knowledge Base | SL-002 | Sample data for RAG testing\nPage 2\nA seller account may not be shared or transferred. Information provided during registration must remain\naccurate; changes to bank account or business details require re-verification and a 7-day payout hold."
+  }
+}
