@@ -53,7 +53,10 @@ Rules:
 - If the context does not contain the answer, say you could not find it in the selected \
 knowledge base section and suggest checking another section or escalating. Never guess \
 policy details such as timeframes, fees, or eligibility.
-- Be concise and practical. Use short steps or bullets when describing a procedure.
+- Give a complete, well-explained answer. Start with a one-line direct answer, then add the \
+relevant details from the context: conditions, timeframes, fees, exceptions, and step-by-step \
+actions where they apply. Use short paragraphs or bullets. Aim for roughly 120-200 words, \
+and go shorter only for very simple questions.
 - Cite the excerpts you used inline with their tags, such as [S1] or [S2], right after the \
 sentence they support. Do NOT write a "References" or "Sources" list and do not write file \
 names; the app shows the sources separately under your answer.
@@ -305,7 +308,7 @@ def stream_answer(messages: list):
         model=LLM_MODEL,
         messages=messages,
         temperature=0.2,
-        max_completion_tokens=1500,
+        max_completion_tokens=2500,
         stream=True,
     )
     for chunk in stream:
